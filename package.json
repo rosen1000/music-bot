@@ -1,0 +1,21 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "description": "* Search from YouTube (search/link/playlist)\r * Save current playlist via database\r * Play music from my computer (only for whitelisted users)\r * All  controls like skip, volume, etc.\r * DM music!",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node .",
+    "server": "java -jar Lavalink.jar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "erela.js": "^2.3.3",
+    "knex": "^0.95.14",
+    "ms": "^2.1.3",
+    "sqlite3": "^5.0.2"
+  }
+}
